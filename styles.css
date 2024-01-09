@@ -1,0 +1,215 @@
+.header-color {
+  background-color: violet;
+  color: white;
+  /* Text color for the header */
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header-color h1 {
+  font-size: 3rem;
+  /* Increased font size */
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+}
+
+.header-color h2 {
+  font-size: 1.8rem;
+  /* Increased font size */
+  margin-bottom: 1.5rem;
+}
+
+.header-color nav {
+  margin-top: 2rem;
+  /* Increased top margin */
+}
+
+.header-color .btn-primary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.header-color .btn-primary:hover {
+  background-color: white;
+  color: violet;
+  border-color: white;
+}
+
+main {
+  padding: 3rem 0;
+  /* Increased padding for better spacing */
+}
+
+
+.about-color {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.about-color h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-color p.lead {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.contact-color {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-color h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-color p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Education Section */
+.education-color {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.education-color h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.education-color p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#downloadResume {
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+  .about-color h3,
+  .contact-color h3,
+  .education-color h4 {
+    font-size: 2rem;
+  }
+
+  .about-color p.lead,
+  .contact-color p,
+  .education-color p {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+.footer-color {
+  background-color: #343a40;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-color h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form */
+#contactForm {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#contactForm .form-group label {
+  color: white;
+}
+
+#contactForm .form-control {
+  background-color: #495057;
+  color: white;
+  border-color: #6c757d;
+}
+
+#contactForm .form-control:focus {
+  background-color: #343a40;
+  border-color: #6c757d;
+}
+
+#contactForm button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+#contactForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.footer-sitemap {
+  margin-bottom: 2rem;
+}
+
+.footer-sitemap ul {
+  list-style-type: none;
+}
+
+.footer-sitemap ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-sitemap a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer-sitemap a:hover {
+  color: white;
+}
+
+
+.footer-followme {
+  margin-bottom: 2rem;
+}
+
+.footer-followme a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+
+@media (min-width: 768px) {
+
+  .footer-color h3 {
+    font-size: 1.8rem;
+  }
+}
